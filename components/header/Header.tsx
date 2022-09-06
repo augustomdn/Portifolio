@@ -39,9 +39,9 @@ export const Header: NextPage = () => {
                     </ul>
                 </div>
                 <div className={styles.IconMenu}>
-                    <span className={styles.iconSpan}><a href={data.github} target="_blank" className={styles.icons} rel="noopener"><BsGithub/></a></span>
-                    <span className={styles.iconSpan}><a href={data.linkedin} target="_blank" className={styles.icons} rel="noopener"><BsLinkedin/></a></span>
-                    <span className={styles.iconSpan}><a href={data.whatsapp} target="_blank" className={styles.icons} rel="noopener"><BsWhatsapp/></a></span>
+                    <span className={styles.iconSpan}><a href={data.github} target="_blank" className={styles.icons} rel="noreferrer" ><BsGithub/></a></span>
+                    <span className={styles.iconSpan}><a href={data.linkedin} target="_blank" className={styles.icons} rel="noreferrer"><BsLinkedin/></a></span>
+                    <span className={styles.iconSpan}><a href={data.whatsapp} target="_blank" className={styles.icons} rel="noreferrer"><BsWhatsapp/></a></span>
                 </div>
             </nav>
         </header>
