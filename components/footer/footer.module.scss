@@ -1,0 +1,17 @@
+.footer {
+    background-color: #181818;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footerText {
+    font-family: 'League Spartan', sans-serif;
+    color: #c9e7ca;
+}
+
+.footerText:hover {
+    color: #77f600;
+}

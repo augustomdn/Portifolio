@@ -1,0 +1,157 @@
+.mainSection {
+    display: flex;
+    width: 100%;
+    height: 50vh;
+    background-color: #c9e7ca;
+    -moz-box-shadow:    inset 0 0 10px #000000;
+    -webkit-box-shadow: inset 0 0 10px #000000;
+    box-shadow:         inset 0 0 10px #000000;
+
+    @media (min-width: 620px) {
+        height: 70vh;
+    }
+}
+
+.mainDiv {
+    width: 100%;
+    padding: 16px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    gap: 8px;
+
+    
+    @media (min-width: 620px) {
+        padding: 64px 24px;
+    }
+}
+
+.titleName {
+    font-family: 'League Spartan', sans-serif;
+    font-size: 3.5rem;
+    font-weight: 800;
+
+    @media (min-width: 620px) {
+        font-size: 5rem;
+    }
+}
+
+.titleItalic {
+    font-family: 'League Spartan', sans-serif;
+    font-weight: 400;
+    color: #444444;
+    font-size: 1.5rem;
+
+    @media (min-width: 620px) {
+        font-size: 1.5rem;
+    }
+}
+
+//Botão
+
+.divButton {
+    position: relative;
+    top: 50px;
+
+    @media (min-width: 620px) {
+        top: 80px;
+    }
+
+}
+
+.mainButton, .mainButton::after {
+    width: 186px;
+    height: 56px;
+    font-size: 1.5em;
+    font-family: 'Bebas Neue', cursive;
+    background: linear-gradient(45deg, transparent 5%, #000000 5%);
+    color: #fff;
+    border: 0;
+    box-shadow: 6px 0px 0px #77f600;
+    outline: transparent;
+    position: relative;
+    cursor: pointer;
+
+}
+
+.mainButton::after {
+    --slice-0: inset(50% 50% 50% 50%);
+    --slice-1: inset(80% -6px 0 0);
+    --slice-2: inset(50% -6px 30% 0);
+    --slice-3: inset(10% -6px 85% 0);
+    --slice-4: inset(40% -6px 43% 0);
+    --slice-5: inset(80% -6px 5% 0);
+
+    content: 'CURRÍCULO';
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient(45deg, transparent 3%, #00f66f 3%, #00f66f 5%, #34ff01 5%);
+    text-shadow: -3px -3px 0px #05f8bb, 3px 3px 0px #00f66f;
+  clip-path: var(--slice-0);
+}
+
+.mainButton:hover::after {
+    animation: 1s glitch;
+    animation-timing-function: steps(2, end);
+}
+
+@keyframes glitch {
+    0% {
+      clip-path: var(--slice-1);
+
+      transform: translate(-20px, -10px);
+  }
+
+  10% {
+    clip-path: var(--slice-3);
+    transform: translate(10px, 10px);
+  }
+
+  20% {
+    clip-path: var(--slice-1);
+    transform: translate(-10px, 10px);
+  }
+
+  30% {
+    clip-path: var(--slice-3);
+    transform: translate(0px, 5px);
+  }
+  40% {
+    clip-path: var(--slice-2);
+    transform: translate(-5px, 0px);
+  }
+  50% {
+    clip-path: var(--slice-3);
+    transform: translate(5px, 0px);
+  }
+  60% {
+    clip-path: var(--slice-4);
+    transform: translate(5px, 10px);
+  }
+  70% {
+    clip-path: var(--slice-2);
+    transform: translate(-10px, 10px);
+  }
+  80% {
+    clip-path: var(--slice-5);
+    transform: translate(20px, -10px);
+  }
+  90% {
+    clip-path: var(--slice-1);
+    transform: translate(-10px, 0px);
+  }
+  100% {
+    clip-path: var(--slice-1);
+    transform: translate(0);
+  }
+}
+
+
+
+

@@ -1,0 +1,60 @@
+.divContact {
+    background-color: #000000;
+    width: 100%;
+}
+
+.divTitle {
+    display: flex;
+    justify-content: center;
+}
+
+.ContactTitle {
+    color: #ffffff;
+    font-family: 'League Spartan', sans-serif;
+    font-size: clamp(32px,2.5vw,38px);
+    padding: 24px;
+
+    @media (min-width: 670px) {
+        font-size: 3.5rem;
+    }
+}
+
+.divList {
+    width: 80%;
+    height: 100px;
+    margin: auto;
+    padding-bottom: 16px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 32px;
+
+}
+
+.icons {
+    font-size: 2em;
+
+    @media (min-width: 620px) {
+        font-size: 2.5em;
+    }
+}
+
+.icons:hover {
+    font-size: 3em;
+}
+
+.github {
+    color: #9da7b3;
+}
+
+.linkedin {
+    color: #0a66c2;
+}
+
+.whatsapp {
+    color: #2bb301;
+}
+
+.mail {
+    color: #ffffff;
+}

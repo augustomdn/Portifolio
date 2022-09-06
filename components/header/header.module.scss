@@ -1,0 +1,166 @@
+.header {
+    width: 100%;
+    background-color: #000000;
+    padding: 16px;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 2rem;
+    font-weight: 400;
+    display: flex;
+    position: relative;
+    box-shadow: 0 0 1em #000000;
+
+
+
+
+    @media (max-width: 670px) {
+        height: 10vh;
+        padding: unset;
+        z-index: 999;
+        font-size: 1.3rem;
+        box-shadow: none;
+    }
+}
+
+.navMenu {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+// Menu Hamburguer
+.menuButton {
+    background: none;
+    border: none;
+    position: absolute;
+    z-index: 999;
+    left: 90%;
+    display: none;
+
+    @media (max-width: 670px) {
+        display: block;
+        top: 30%;
+    }
+}
+
+.hiddenMenu {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+
+    @media (max-width: 670px) {
+        width: 0;
+        display: none;
+    }
+}
+
+.svgMenu {
+    color: #c9e7ca;
+
+    @media (max-width: 670px) {
+        position: fixed;
+        background-color: #000000;
+        border-radius: 50%;
+        box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
+    }
+}
+
+//Lista 
+.listMenu {
+    width: 100%;
+}
+
+.listMenu ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+
+.listMenu a {
+    color: #ffffff;
+    position: relative;
+}
+
+.listMenu a::after {
+    content: " ";
+    width: 0%;
+    height: 2px;
+    background-color: #77f600;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: 0.5s ease-in-out;
+}
+
+.listMenu a:hover::after {
+    width: 100%;
+}
+
+// Icons
+.IconMenu {
+    display: flex;
+
+    @media (max-width: 670px) {
+        width: 100%;
+        height: 20vh;
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+}
+
+.iconSpan {
+    display: flex;
+    padding: 0 16px;
+}
+
+.icons {
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    
+    @media (max-width: 670px) {
+        font-size: 1.5em;
+    }
+}
+
+.icons:hover {
+    color: #77f600;
+    transition: .5s ease-in-out;
+
+}
+
+
+
+@media (max-width: 670px) {
+
+    .showMenu {
+        transition: width 0.5s ease-in-out;
+    }
+
+    .navMenu {
+        position: fixed;
+        background-color: #000000;
+        flex-direction: column;
+        width: 100vw;
+        transition: width 0.5s ease-in-out;
+        min-height: 100vh;
+        box-shadow: rgba(17, 17, 26, 0.7) 0px 1px 0px, rgba(17, 17, 26, 0.7) 0px 8px 24px, rgba(17, 17, 26, 0.7) 0px 16px 48px;
+
+    }
+
+    .navMenu ul {
+        flex-direction: column;
+        gap: 16px;
+        position: relative;
+        top: 35px;
+    }
+
+    .navMenu li {
+        padding: 24px;
+    }
+
+}
+
+

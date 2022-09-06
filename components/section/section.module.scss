@@ -1,0 +1,95 @@
+.sectionOne {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    width: 100%;
+    background-color: #000000;
+    // height: 100%;
+
+}
+
+.sectionTitle {
+    font-family: 'League Spartan', sans-serif;
+    color: #ffffff;
+    font-size: clamp(32px,2.5vw,38px);
+    padding: 24px;
+
+    @media (min-width: 670px) {
+        font-size: 3.5rem;
+    }
+}
+
+.sectionProjects {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 24px;
+    padding-bottom: 32px;
+}
+
+.figureCard {
+    position: relative;
+    width: 280px;
+    height: 350px;
+    background-color: #c9e7ca;
+    border-radius: 25px;
+    border: 2px solid #9cb39d;
+
+    @media (min-width: 620px) {
+        height: 350px;
+    }
+
+}
+
+.figureImageRound {
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+}
+
+.figureDiv {
+    width: 100%;
+}
+
+.figureTitle {
+    color: #000000;
+    border-top: 2px solid #9cb39d;
+    padding: 8px;
+    font-family: 'League Spartan', sans-serif;
+}
+
+.figureText {
+    font-size: clamp(14px,2vw,18px);
+    font-family: 'League Spartan', sans-serif;
+    padding: 0 8px;
+    color: #444444;
+
+    @media (max-width: 1024px) {
+        font-size: 1rem;
+    }
+}
+
+//Botão
+.figureButtonDiv {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding: 24px 0;
+}
+
+.figureButton {
+    font-family: "Bebas Neue", cursive;
+    color: #ffffff;
+    letter-spacing: 1px;
+    font-size: 1rem;
+    padding: 8px 24px;
+    cursor: pointer;
+    background: linear-gradient(45deg, transparent 5%, #000000 5%);
+    box-shadow: 6px 0px 0px #77f600;
+    border: none;
+}
+
+.figureButton:hover {
+    color: #77f600;
+    transition: 0.5s ease-in-out;
+}
