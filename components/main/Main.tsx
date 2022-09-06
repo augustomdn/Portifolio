@@ -9,7 +9,7 @@ export const Main = () => {
                 <h1 className={styles.titleName}>Augusto Meireles</h1>
                 <i className={styles.titleItalic}>Desenvolvedor Front-End</i>
                 <div className={styles.divButton}>
-                    <a href="#">
+                    <a href="/curriculo.pdf" target="_blank">
                         <button className={styles.mainButton}>Currículo</button>
                     </a>
                 </div>
