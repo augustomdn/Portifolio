@@ -15,7 +15,8 @@ export const Section = () => {
                             width={200}
                             height={124}
                             layout={'responsive'}
-                            src={'/umvc.png'} />
+                            src={'/umvc.png'}
+                            alt="umv-image" />
                     </span>
                     <div className={styles.figureDiv}>
                         <h1 className={styles.figureTitle}>CHARACTER SELECT</h1>
@@ -33,7 +34,8 @@ export const Section = () => {
                             width={200}
                             height={124}
                             layout={'responsive'}
-                            src={'/todolist.png'} />
+                            src={'/todolist.png'}
+                            alt="to-do-list-image" />
                     </span>
                     <div className={styles.figureDiv}>
                         <h1 className={styles.figureTitle}>LISTA DE TAREFAS</h1>
@@ -54,7 +56,8 @@ export const Section = () => {
                             width={200}
                             height={124}
                             layout={'responsive'}
-                            src={'/building.jpg'} />
+                            src={'/building.jpg'}
+                            alt="progress-image" />
                     </span>
                     <div className={styles.figureDiv}>
                         <h1 className={styles.figureTitle}>POKEDEX API</h1>
