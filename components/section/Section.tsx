@@ -22,14 +22,18 @@ export const Section = () => {
                         <h1 className={styles.figureTitle}>CHARACTER SELECT</h1>
                         <i className={styles.figureText}>Tela de seleção de personagens criada a minha maneira de um dos meus jogos preferidos.</i>
                         <div className={styles.figureButtonDiv}>
-                            <button className={styles.figureButton}>Code</button>
-                            <button className={styles.figureButton}>Website</button>
+                            <a href="https://github.com/augustomdn/MarvelvsCapcomJS">
+                                <button className={styles.figureButton}>Code</button>
+                            </a>
+                            <a href="#">
+                                <button className={styles.figureButton}>Website</button>
+                            </a>
                         </div>
                     </div>
                 </figure>
                 <figure className={styles.figureCard}>
                     <span className={styles.figureImage}>
-                    <Image
+                        <Image
                             className={styles.figureImageRound}
                             width={200}
                             height={124}
@@ -38,20 +42,24 @@ export const Section = () => {
                             alt="to-do-list-image" />
                     </span>
                     <div className={styles.figureDiv}>
-                        <h1 className={styles.figureTitle}>LISTA DE TAREFAS</h1>
+                        <h1 className={styles.figureTitle}>LOADING</h1>
                         <i className={styles.figureText}>
-                            To do List criada com o intuito de estudar mais sobre React JS e Typescript.
+                            Página em Construção<br /><br /><br />
                         </i>
 
                         <div className={styles.figureButtonDiv}>
-                            <button className={styles.figureButton}>Code</button>
-                            <button className={styles.figureButton}>Website</button>
+                            <a href="#">
+                                <button className={styles.figureButton}>Code</button>
+                            </a>
+                            <a href="#">
+                                <button className={styles.figureButton}>Website</button>
+                            </a>
                         </div>
                     </div>
                 </figure>
                 <figure className={styles.figureCard}>
                     <span className={styles.figureImage}>
-                    <Image
+                        <Image
                             className={styles.figureImageRound}
                             width={200}
                             height={124}
@@ -60,14 +68,18 @@ export const Section = () => {
                             alt="progress-image" />
                     </span>
                     <div className={styles.figureDiv}>
-                        <h1 className={styles.figureTitle}>POKEDEX API</h1>
+                        <h1 className={styles.figureTitle}>LOADING</h1>
                         <i className={styles.figureText}>
-                        Página em Construção<br/><br/><br/>
+                            Página em Construção<br /><br /><br />
                         </i>
 
                         <div className={styles.figureButtonDiv}>
-                            <button className={styles.figureButton}>Code</button>
-                            <button className={styles.figureButton}>Website</button>
+                            <a href="#">
+                                <button className={styles.figureButton}>Code</button>
+                            </a>
+                            <a href="#">
+                                <button className={styles.figureButton}>Website</button>
+                            </a>
                         </div>
                     </div>
                 </figure>
