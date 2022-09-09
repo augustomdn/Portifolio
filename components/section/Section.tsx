@@ -38,7 +38,7 @@ export const Section = () => {
                             width={200}
                             height={124}
                             layout={'responsive'}
-                            src={'/todolist.png'}
+                            src={'/building.png'}
                             alt="to-do-list-image" />
                     </span>
                     <div className={styles.figureDiv}>
