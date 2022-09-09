@@ -6,4 +6,5 @@
   text-decoration: none;
   list-style-type: none;
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
