@@ -25,9 +25,6 @@ export const Header: NextPage = () => {
                 <div className={styles.listMenu}>
                     <ul className={styles.listItems}>
                         <li>
-                            <a href="#main">Home</a>
-                        </li>
-                        <li>
                             <a href="#projects">Projetos</a>
                         </li>
                         <li>
