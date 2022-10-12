@@ -49,7 +49,7 @@ export const Section = () => {
                             <a href="https://github.com/augustomdn/MarvelvsCapcomJS">
                                 <button className={styles.figureButton}>Code</button>
                             </a>
-                            <a href="#">
+                            <a href="https://marvel-vs-capcom-js.vercel.app/">
                                 <button className={styles.figureButton}>Website</button>
                             </a>
                         </div>
