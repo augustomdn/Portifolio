@@ -2,7 +2,7 @@ import { NextPage } from "next";
 import Image from "next/image";
 import styles from '../about/about.module.scss'
 import { GrReactjs } from 'react-icons/gr'
-import { SiNextdotjs, SiSass, SiBootstrap, SiGithub, SiJest, SiTypescript } from 'react-icons/si'
+import { SiNextdotjs, SiSass, SiBootstrap, SiGithub, SiJest, SiTypescript, SiStyledcomponents } from 'react-icons/si'
 
 export const About = () => {
     return (
@@ -37,6 +37,11 @@ export const About = () => {
                     <li className={styles.skills}>
                         <span className={styles.iconSkill}>
                             <SiSass />
+                        </span>
+                    </li>
+                    <li className={styles.skills}>
+                        <span className={styles.iconSkill}>
+                            <SiStyledcomponents />
                         </span>
                     </li>
                     <li className={styles.skills}>

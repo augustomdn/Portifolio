@@ -15,17 +15,18 @@ export const Section = () => {
                             width={200}
                             height={124}
                             layout={'responsive'}
-                            src={'/umvc.png'}
-                            alt="umv-image" />
+                            src={'/jordanshoes.png'}
+                            alt="" />
                     </span>
                     <div className={styles.figureDiv}>
-                        <h1 className={styles.figureTitle}>CHARACTER SELECT</h1>
-                        <i className={styles.figureText}>Tela de seleção de personagens criada a minha maneira de um dos meus jogos preferidos.</i>
+                        <h1 className={styles.figureTitle}>Jordan Shoes</h1>
+                        <i className={styles.figureText}>Usando como base a interface web da Tesla criei a minha versão voltada para um modelo de tênis do Jordan</i>
+
                         <div className={styles.figureButtonDiv}>
-                            <a href="https://github.com/augustomdn/MarvelvsCapcomJS">
+                            <a href="https://github.com/augustomdn/Jordan-Shoes">
                                 <button className={styles.figureButton}>Code</button>
                             </a>
-                            <a href="#">
+                            <a href="https://jordan-shoes-reactjs-ts.vercel.app/">
                                 <button className={styles.figureButton}>Website</button>
                             </a>
                         </div>
@@ -38,17 +39,14 @@ export const Section = () => {
                             width={200}
                             height={124}
                             layout={'responsive'}
-                            src={'/building.jpg'}
-                            alt="to-do-list-image" />
+                            src={'/umvc.png'}
+                            alt="umv-image" />
                     </span>
                     <div className={styles.figureDiv}>
-                        <h1 className={styles.figureTitle}>LOADING</h1>
-                        <i className={styles.figureText}>
-                            Página em Construção<br /><br /><br />
-                        </i>
-
+                        <h1 className={styles.figureTitle}>Character Select</h1>
+                        <i className={styles.figureText}>Tela de seleção de personagens criada a minha maneira de um dos meus jogos preferidos.</i>
                         <div className={styles.figureButtonDiv}>
-                            <a href="#">
+                            <a href="https://github.com/augustomdn/MarvelvsCapcomJS">
                                 <button className={styles.figureButton}>Code</button>
                             </a>
                             <a href="#">
