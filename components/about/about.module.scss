@@ -62,11 +62,12 @@
 
 .skillsList {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     margin: auto;
     width: 80%;
     padding: 24px;
-    gap: 16px;
+    gap: 20px;
 
     @media (min-width: 620px) {
         justify-content: space-between;
