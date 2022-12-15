@@ -1,3 +1,16 @@
+<h1>Portifólio</h1>
+
+<ul>
+  <li>Next JS</li>
+  <li>SCSS</li>
+  <li>Responsivo</li>
+</ul>
+
+<hr>
+
+
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
