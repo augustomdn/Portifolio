@@ -110,7 +110,7 @@ export const Section = () => {
                             alt="umv-image" />
                     </span>
                     <div className={styles.figureDiv}>
-                        <h1 className={styles.figureTitle}>The Mafiusucat</h1>
+                        <h1 className={styles.figureTitle}>The MafiusuCat</h1>
                         <i className={styles.figureText}>Projeto criado para um amigo com a intenção de fazer vendas de NFT`s na rede Cardano</i>
                         <div className={styles.figureButtonDiv}>
                             <a href="https://mafiusucats.vercel.app/">
