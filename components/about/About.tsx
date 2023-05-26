@@ -1,5 +1,3 @@
-import { NextPage } from "next";
-import Image from "next/image";
 import styles from '../about/about.module.scss'
 import { GrReactjs } from 'react-icons/gr'
 import { SiNextdotjs, SiSass, SiBootstrap, SiGithub, SiJest, SiTypescript, SiStyledcomponents, SiVite } from 'react-icons/si'

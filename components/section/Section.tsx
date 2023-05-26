@@ -98,27 +98,7 @@ export const Section = () => {
                             </a>
                         </div>
                     </div>
-                </figure>
-                <figure className={styles.figureCard}>
-                    <span className={styles.figureImage}>
-                        <Image
-                            className={styles.figureImageRound}
-                            width={200}
-                            height={124}
-                            layout={'responsive'}
-                            src={'/mafiusucat.png'}
-                            alt="umv-image" />
-                    </span>
-                    <div className={styles.figureDiv}>
-                        <h1 className={styles.figureTitle}>The MafiusuCat</h1>
-                        <i className={styles.figureText}>Projeto criado para um amigo com a intenção de fazer vendas de NFT`s na rede Cardano</i>
-                        <div className={styles.figureButtonDiv}>
-                            <a href="https://mafiusucats.vercel.app/">
-                                <button className={styles.figureButton}>Website</button>
-                            </a>
-                        </div>
-                    </div>
-                </figure>
+                </figure>   
             </div>
         </section >
     )
